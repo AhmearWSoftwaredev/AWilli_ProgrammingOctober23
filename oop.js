@@ -62,7 +62,7 @@ async function steps (){
         console.log("error")
     }
     finally{
-        console.log("THE END")
+        setTimeout(() => {console.log("THE END")},2000)
     }
 }
 steps();
