@@ -2,6 +2,7 @@
         let salary = 0
         salary = (number / 52) * 2
         let Pa_taxes = 0.23
+        
         return console.log(salary - (salary * Pa_taxes))  ;
     }
 
